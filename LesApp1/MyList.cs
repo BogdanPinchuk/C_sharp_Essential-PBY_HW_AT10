@@ -118,7 +118,7 @@ namespace LesApp1
             {
                 Resize((int)Math.Pow(2, power + 1));
             }
-            else if (mas.Length + Count >= Capacity)
+            else if (mas.Length + Count > Capacity)
             {
                 Resize((int)Math.Pow(2, power));
             }
