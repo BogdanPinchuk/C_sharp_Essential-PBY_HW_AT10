@@ -178,7 +178,7 @@ namespace LesApp1
 
             // Зменшуємо лічильник кількості елемнтів
             Count--;
-
+            
             // для економії пам'яті перевіряємо величину  масиву
             if (Count == Capacity / 2)
             {
@@ -189,7 +189,7 @@ namespace LesApp1
         /// <summary>
         /// Видалити всі елементи
         /// </summary>
-        public void RemoveAll()
+        public void Clear()
         {
             // 4 - стандартне значення за замовчуванням
             array = new T[4];
